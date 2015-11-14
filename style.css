@@ -23,7 +23,7 @@ nav {
     font-size: 24px; }
 
 header {
-  height: 500px;
+  height: 700px;
   background-image: url("bg1.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -40,7 +40,12 @@ header {
     font-size: 20px; }
 
 #about {
+  padding: 90px 0;
   background: #453a34; }
+  #about h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 40px; }
 
 .about {
   max-width: 1200px;
@@ -61,5 +66,38 @@ header {
 
 .introduction, .education {
   max-width: 450px; }
+
+#cv {
+  padding: 90px 0; }
+  #cv h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 40px; }
+
+.cv {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative; }
+  .cv h3 {
+    text-align: center;
+    padding-bottom: 20px; }
+  .cv p {
+    display: inline-block;
+    padding-right: 20px;
+    vertical-align: text-top; }
+  .cv ul {
+    display: inline-block;
+    padding-right: 20px;
+    list-style-type: none; }
+
+.knowledge {
+  min-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px; }
 
 /*# sourceMappingURL=style.css.map */
