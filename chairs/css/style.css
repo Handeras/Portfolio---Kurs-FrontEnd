@@ -1,0 +1,437 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+    margin: 0; padding: 0; border: 0;
+    font-family: 'raleway';
+}
+span{
+    color: rgb(42, 185, 167);
+}
+.container{
+    margin: auto;
+}
+nav{
+    height: 40px;
+    background: #000;
+    color: #fff;
+    padding: 0 60px 0 60px;
+    position: relative;
+}
+nav p{
+    position: absolute;
+    top: 10px;
+    float: left;
+    font-weight: bold;
+}
+nav ul
+{
+    font-size: 14px;
+    margin: 0;
+    padding-top: 7px;
+    list-style: none;
+}
+nav ul li
+{
+    display: block;
+    position: relative;
+    float: right;
+}
+nav li ul
+{
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+}
+nav li li
+{
+    float: none;
+    font-size: 14px;
+}
+nav ul li a
+{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 15px 5px 15px;
+    margin-left: 1px;
+    white-space: nowrap;
+    background: black;
+}
+.arrow_box {
+    background: black;
+}
+.arrow_box:after, .arrow_box:before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.arrow_box:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: black;
+    border-width: 10px;
+    margin-left: -10px;
+}
+article.top{
+    height: 500px;
+    background: linear-gradient(white, rgb(206, 205, 213));
+}
+.leftArrow{
+    color: rgb(42, 185, 167);
+    font-size: 80px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+.rightArrow{
+    color: rgb(42, 185, 167);
+    font-size: 80px;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+}
+.top_content{
+    padding: 5% 0 5% 10%;
+    display: inline-block;
+}
+.top_content li{
+    list-style-type: none;
+    display: none;
+}
+.top_text{
+    padding-top: 120px;
+    vertical-align: top;
+    width: 470px;
+    display: inline-block;
+    text-align: center;
+}
+.top_text p:first-child{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.top_text p:last-child{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.top a{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 5px;
+    width: 200px;
+    height: 25px;
+    background: rgb(42, 185, 167);
+    border-radius: 5px;
+    text-decoration: none;
+}
+.offert{
+    height: 350px;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.chair, .offert_text{
+    display: inline-block;
+}
+.chair{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    margin-right: 40px;
+}
+.chairHeader{
+    padding: 20px 0 10px 0;
+    height: 30px;
+    width: inherit;
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 20px;
+}
+.offert h3{
+    width: 160px;
+    border-bottom: 6px solid rgb(42, 185, 167);
+}
+.chair img{
+    width: inherit;
+    height: inherit;
+}
+.offert_text{
+    width: 350px;
+    display: inline-block;
+    border: 1px solid #bebebe;
+    vertical-align: top;
+    padding: 20px 20px 20px 20px;
+}
+.offert_text p{
+    color: #a8a8a8;
+    margin-top: 20px;
+}
+.cennik{
+    height: 600px;
+    background: rgba(206, 205, 213, 0.4);
+    padding: 40px 60px 0 60px;
+}
+.cennik h2{
+    width: 300px;
+    border-bottom: 6px solid rgb(42, 185, 167);
+}
+.cennik_content{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    margin-top: 80px;
+    text-align: center;
+
+}
+.cennik_content:nth-child(n-2){
+    margin-right: 70px;
+}
+.cennik_content:nth-child(even){
+    border: 1px solid #c6c6c6;
+    background: rgb(249,249, 249);
+    padding-top: 30px;
+}
+.cennik_content:nth-child(odd){
+    color: white;
+    background: rgb(42, 185, 167);
+    border: 1px solid rgb(42, 185, 167);
+    padding-top: 30px;
+}
+.circle{
+    position: absolute;
+    top: 80px;
+    left: 85px;
+    width: 130px;
+    height: 130px;
+    background: white;
+    border-radius: 70px;
+    border: 1px solid rgb(191, 191, 191);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(191, 191, 191);
+    text-align: center;
+    vertical-align: middle;
+}
+.circle p{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+.cennik table{
+    color: rgb(152, 152, 152);
+}
+.cennik_table_par{
+    position: absolute;
+    top: 230px;
+    width: inherit;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    line-height: 30px;
+}
+.cennik_table_par tr:nth-child(odd){
+    background: rgb(228,228,228);
+}
+.cennik_table_par tr:nth-child(even){
+    background: rgb(241,241,241);
+}
+.cennik_table_upar{
+    position: absolute;
+    top: 230px;
+    width: inherit;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    line-height: 30px;
+}
+.cennik_table_upar tr:nth-child(odd){
+    background: white;
+}
+.cennik_table_upar tr:nth-child(even){
+    background: rgb(241,241,241);
+}
+.cennik_content .button{
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    padding-top:7px;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    height: 25px;
+    background: rgb(42, 185, 167);
+    border-radius: 5px;
+    text-decoration: none;
+}
+.cennik_content .other_button{
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    padding-top:7px;
+    color: rgb(42, 185, 167);
+    font-size: 15px;
+    width: 100px;
+    height: 25px;
+    background: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.circle1{
+    height: 50px;
+    width: 50px;
+    background: white;
+    position: absolute;
+    top: -35px;
+    left: 120px;
+    border-radius: 50%;
+    border: 2px solid rgb(228,228,228);
+}
+.circle2{
+    height: 25px;
+    width: 25px;
+    background: gray;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    border-radius: 50%;
+}
+.oc1{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -35px;
+    left: 120px;
+    border-radius: 50%;
+    background: rgb(42, 185, 167);
+    border: 2px solid rgb(42, 185, 167);
+}
+.oc2{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    border-radius: 50%;
+    background: white;
+}
+.contact{
+    padding: 40px 60px 100px 60px;
+}
+.contact h2{
+    width: 300px;
+    border-bottom: 6px solid rgb(42, 185, 167);
+    margin-bottom: 40px;
+}
+.data{
+    display: inline-block;
+    width: 65%;
+}
+.data input{
+    border: 1px solid rgb(42, 185, 167);
+    height: 40px;
+    width: inherit;
+    margin-bottom: 20px;
+    display: block;
+}
+.data textarea{
+    border: 1px solid rgb(42, 185, 167);
+    height: 100px;
+    width: inherit;
+    resize: none;
+}
+.send{
+    position: relative;
+    display: inline-block;
+    width: 34%;
+    text-align: center;
+    vertical-align: top;
+}
+.checkbox {
+    position: relative;
+}
+.checkbox input {
+    display: block;
+    opacity: 0;
+    height: 48px;
+    position: absolute;
+    width: 48px;
+}
+.checkbox label {
+    display: block;
+    padding-left: 65px;
+    position: relative;
+}
+.checkbox label::before,
+.checkbox label::after {
+    border: 1px solid rgb(42, 185, 167);
+    content: "";
+    display: block;
+    left: 0;
+    height: 48px;
+    position: absolute;
+    width: 49px;
+    top: 0;
+}
+.checkbox label::after {
+    background: url("../images/form_ok.jpg") no-repeat center;
+    border: 0;
+    display: none;
+}
+.checkbox input:checked + label::after {
+    display: block;
+}
+.checkbox a{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    color: white;
+    font-size: 40px;
+    padding: 10px 100px 30px 100px;
+    width: 200px;
+    height: 25px;
+    background: rgb(42, 185, 167);
+    border-radius: 5px;
+    text-decoration: none;
+}
+.checkbox input{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+footer{
+    padding: 10px 60px 10px 60px;
+    font-size: 15px;
+    color: rgb(171, 171, 171);
+}
+.copyright{
+    width: 65%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.social{
+    width: 34%;
+    display: inline-block;
+    vertical-align: top;
+}
+.social ul{
+    display: inline-block;
+}
+.social li{
+    display: inline-block;
+}
+.social ul:last-child{
+    float: right;
+    vertical-align: bottom;
+}
+.social p{
+    float: right;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}

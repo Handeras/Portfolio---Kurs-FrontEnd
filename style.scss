@@ -1,28 +1,32 @@
-* {
+*{
   margin: 0;
   padding: 0;
-  color: white; }
-
-body {
-  background-color: #282a2e; }
-
-nav {
+  color: white;
+}
+body{
+  background-color: rgb(40, 42, 46);
+}
+nav{
   max-width: 1200px;
   margin: 30px auto;
   display: flex;
-  justify-content: space-between; }
-  nav ul {
+  justify-content: space-between;
+  ul{
     display: flex;
-    align-items: flex-end; }
-    nav ul li {
+    align-items: flex-end;
+    li{
       list-style-type: none;
-      padding-left: 2em; }
-  nav a {
-    text-decoration: none; }
-  nav > a:first-child {
-    font-size: 24px; }
-
-header {
+      padding-left: 2em;
+    }
+  }
+  a{
+    text-decoration: none;
+  }
+  > a:first-child{
+    font-size: 24px;
+  }
+}
+header{
   height: 700px;
   background-image: url("bg1.jpg");
   background-position: center;
@@ -31,95 +35,104 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
-  header h1 {
+  align-items: center;
+  h1{
     font-size: 60px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
-  header p {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  p{
     margin-top: 50px;
-    font-size: 20px; }
-
-#about {
+    font-size: 20px;
+  }
+}
+#about{
   padding: 90px 0;
-  background: #453a34; }
-  #about h1 {
+  background: rgb(69, 58, 52);
+  h1{
     text-align: center;
     padding-bottom: 30px;
-    font-size: 40px; }
-
-.about {
+    font-size: 40px;
+  }
+}
+.about{
   max-width: 1200px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative; }
-
-.circle {
+  position: relative;
+}
+.circle{
   width: 200px;
   height: 200px;
   border-radius: 200px 200px;
   border: 2px solid gray;
   background: url("circle.jpg");
   background-repeat: no-repeat;
-  background-size: cover; }
-
-.introduction, .education {
-  max-width: 450px; }
-
-#cv {
-  padding: 90px 0; }
-  #cv h1 {
+  background-size: cover;
+}
+.introduction, .education{
+  max-width: 450px;
+}
+#cv{
+  padding: 90px 0;
+  h1{
     text-align: center;
     padding-bottom: 30px;
-    font-size: 40px; }
-
-.cv {
+    font-size: 40px;
+  }
+}
+.cv{
   max-width: 1200px;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  position: relative; }
-  .cv h3 {
+  position: relative;
+  h3{
     text-align: center;
-    padding-bottom: 20px; }
-  .cv p {
+    padding-bottom: 20px;
+  }
+  p{
     display: inline-block;
     padding-right: 20px;
-    vertical-align: text-top; }
-  .cv ul {
+    vertical-align: text-top;
+  }
+  ul{
     display: inline-block;
     padding-right: 20px;
-    list-style-type: none; }
-
-.knowledge {
+    list-style-type: none;
+  }
+}
+.knowledge{
   min-width: 1200px;
   display: flex;
   justify-content: space-around;
-  margin-top: 50px; }
-
-#portfolio {
+  margin-top: 50px;
+}
+#portfolio{
   padding: 90px 0;
-  background: #453a34; }
-  #portfolio h1 {
+  background: rgb(69, 58, 52);
+  h1{
     text-align: center;
     padding-bottom: 30px;
-    font-size: 40px; }
-
-.portfolio {
+    font-size: 40px;
+  }
+}
+.portfolio{
   width: 1200px;
   margin: auto;
   display: flex;
   justify-content: space-around;
-  text-align: center; }
-  .portfolio img {
+  text-align: center;
+  img{
     margin-top: 40px;
     width: 500px;
-    height: auto; }
-  .portfolio a {
+    height: auto;
+  }
+  a{
     margin-top: 40px;
-    display: block; }
-
-/*# sourceMappingURL=style.css.map */
+    display: block;
+  }
+}
